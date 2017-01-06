@@ -11,3 +11,30 @@ The staging area is kind of a holding place between the working directory and th
 It allows the use the flexibility to control which files are committed and when.
 This power further helps to isolate commits to one logical change.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can add only the files associated with that change to the staging area and then commit.
+If I made other changes, I can stage them and commit in subsequent logical steps.
+
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+
+A branch would be useful if I was going to experiment with a new mode or new feature.
+The original, working, program would be kept intact, but I would have a version to experiment with.
+I would not have to keep track of commit ids.  I can name branches in a way that is human understandable.
+
+
+How do diagrams help you to visualize the branch structure?
+
+The diagrams help to see the different branches and what commits have been made along each one.
+It is much easier to use the diagram than look at the graph output from the git command.
+The diagram makes it very easy to visualize all of the different branches and the changes made in each.
+
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+Merging is how we combine the changes made in two different branches back into one branch.
+Git keeps track of the changes made on both paths.  So, the new leaf has two parents.
+We illustrate it in the diagram to demonstrate that.
+
