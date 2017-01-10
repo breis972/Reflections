@@ -38,3 +38,10 @@ Merging is how we combine the changes made in two different branches back into o
 Git keeps track of the changes made on both paths.  So, the new leaf has two parents.
 We illustrate it in the diagram to demonstrate that.
 
+
+What are the pros and cons of Git's automatic merging vs. always doing manual merges?
+
+Manual merges are going to be prone to errors.  Code can be miscopied and conflicting areas may not be noticed.
+Automatic merging takes the human error element out of the equation.  It is not perfect.
+Manual intervention will be required when conflicts arise, but this is really a good thing.
+If Git were allowed to guess how to handle conflicts, the result could be unusuable, erroneous, or will not compile.
