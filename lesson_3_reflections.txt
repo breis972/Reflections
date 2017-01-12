@@ -4,3 +4,17 @@ I would want to do this if I was collaborating with another person or a group of
 Also, if I needed to access my work from multiple computers.
 
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+When collaborating with others, they might be making changes that affect what I am working on.  
+If my inputs keep changing, it would be very hard to debug my own code.  
+If I can manually pull their changes, I can be sure that my own code is working first.
+
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+
+Forks are copies of repositories on GitHub.  Like a clone, but on the hub.  I would use this to copy someone else's repository if I wanted to make changes for my own purposes.  I would do this if I want to share my versions with others or collaborate with others on it.
+Clone is a copy of repository that I keep on my local computer.  I can make changes here, but I my changes are not visible on GitHub.
+Branch is done within a local repository.  It is not its own repository.
+
+
