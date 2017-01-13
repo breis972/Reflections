@@ -18,3 +18,10 @@ Clone is a copy of repository that I keep on my local computer.  I can make chan
 Branch is done within a local repository.  It is not its own repository.
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+I can use git diff to identify any differences between the branch I have been working on and the last known state of the remote.
+When I merge, I can resolve conflicts locally before pushing to GitHub or other collaborative space.
+I can do these things offline, resolve conflicts more quickly, and avoid impacting others in the collaborative space.
+
+
