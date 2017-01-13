@@ -25,3 +25,11 @@ When I merge, I can resolve conflicts locally before pushing to GitHub or other 
 I can do these things offline, resolve conflicts more quickly, and avoid impacting others in the collaborative space.
 
 
+How could you collaborate using Git or GitHub?  What would be easier, and what would be harder?
+
+You could have multple copies of directories for people to work in, and then attempt to manually merge code.
+This would be time consuming and error prone.
+A local system using checkout and checkin could work, but that might only allow 1 person at a time to change any file.
+This could avoid conflicts, but does not allow for concurrent engineering.
+
+
